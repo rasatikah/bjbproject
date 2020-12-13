@@ -160,34 +160,51 @@ if (isset($_POST['contactus'])) {
                                  
                                     
                                   
-            <div class="row">
+        <div class="row">
                 <div class="col-md-12">
                     <div class="brand-wrapper">
                         <br><br><br>
                                 
-           
+                            <div class="row">
                                 
-                      <div class="column" style="background-color:rgb(112, 110, 114);">
-                                    <div>
-                                    <form method="post" action="contactus.php">
-
-                                    <center>
+                            <center>
     
-                                        <h1>
-                                            BANGSA JOHOR BAHAGIA
-                                        </h1>
-                            
-                                                <h4>
-                                                    Jalan Pulai Harmoni 3,
-                                                    Bandar Baru Kangkar Pulai, <br>
-                                                    Skudai, Johor Bahru
-                                                </h4>
-                                                <h4>
-                                                    019-970 3189  (Pn Su) |
-                                                    <a href="mailto:bjbkangkarpulai@gmail.com" target="_top">bjbkangkarpulai@gmail.com</a>
-                                                </h4>	
-                                            
-                                    </center>
+                                <h1>
+                                    BANGSA JOHOR BAHAGIA
+                                </h1>
+                                <BR></BR>
+                                    <div class="column" style="background-color:rgb(112, 110, 114);">
+                                        <h3>
+                                            Alamat
+                                        </h3>
+                                        <h4>
+                                            Jalan Pulai Harmoni 3, <br>
+                                            Bandar Baru Kangkar Pulai, <br>
+                                            Skudai, Johor Bahru
+                                        </h4>
+                                        <br>
+                                        <h3>
+                                            Hubungi kami
+                                        </h3>
+                                        <h4>
+                                            019-970 3189  (Pn Su)
+                                        </h4>
+                                        <br>
+                                        <h3>
+                                            Email
+                                        </34>
+                                        <h4>
+                                            <a href="mailto:bjbkangkarpulai@gmail.com" target="_top">bjbkangkarpulai@gmail.com</a>
+                                        </h4>	
+             
+           
+                      </center>
+                        
+                        
+    
+                      <div class="column" style="background-color:rgb(144, 106, 179);">
+                                    <div>
+                                    <form method="post" action="usercontact.php">
 
                                     <b>
                                         <h4>Nama:</h4> <input type="text" name="name" size="50" placeholder="Nama"><br><br>
@@ -195,11 +212,10 @@ if (isset($_POST['contactus'])) {
                                         <h4>No Telefon:</h4> <input type="number" name="phoneNumber" onkeypress="return mask(this,event);" size="53" placeholder="Nombor Telefon"><br><br>
                                         <h4>Tinggalkan Mesej anda:</h4> <textarea type="textarea" name="inquiries" rows="10" cols="70" placeholder="Mesej"></textarea><br><br>
                                     </b>
-
+                                    <?php include('errors.php'); ?>
                                     <div class="input-group">
-                                    <button type="submit" class="btn" name="contactus" onclick="alert('Mesej anda telah dihantar. Terima kasih!')">Hantar</button>
+                                    <button type="submit" class="btn" name="contact" onclick="alert('Mesej anda telah dihantar. Terima kasih!')">Hantar</button>
                                     </div>
-
                                     </form>
                                 </div>
                             
