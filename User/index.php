@@ -75,20 +75,21 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!--test-->
+            
                 </div> 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a id="homePage" href="index.php">Laman Utama</a></li>
-                        <li><a href="manageuser.php">Laman Kedai</a></li>
-                        <li ><a href="manageseller.php">Troli</a></li>
-                        <li ><a href="category.php">Pembayaran</a></li>
+                        <li ><a href="shop.php">Laman Kedai</a></li>
+                        <li ><a href="cart.php">Troli</a></li>
+                        <li ><a href="payment.php">Pembayaran</a></li>
                         <li ><a href="report.php">Laporan</a></li>
 
                         <div class="dropdownnew">
                             <button class="dropbtn"><a href="#" class="profileIcon"></a><img src="img/images.jpeg" class="image-circle"/>&nbsp&nbsp<?php echo $_SESSION['username']; ?></button>
                                 <div class="dropdownnew-content">
-                                <a id="myReport" href="adminreport.php">Laporan</a>
+                                <a id="myReport" href="account.php">Akaun Saya</a>
+                                <a id="contactus" href="contactus.php">Hubungi kami</a>
                                 <a id="logout" href="logout.php">Log Keluar</a>
                         </div>
                      </div> 
@@ -104,14 +105,18 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="product-bit-title text-center">
-                        <h2>Laporan</h2>
+                        <h2>Selamat Datang ke BJBshop</h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
 
+    <!---------------------------------------------------------------------------------------------------------------------->
+
+    <!--content-->
+
+    <!---------------------------------------------------------------------------------------------------------------------->
     
     <div class="footer-top-area">
         <div class="zigzag-bottom"></div>

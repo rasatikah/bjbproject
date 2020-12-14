@@ -87,7 +87,6 @@
                         <div class="dropdownnew">
                             <button class="dropbtn"><a href="#" class="profileIcon"></a><img src="img/images.jpeg" class="image-circle"/>&nbsp&nbsp<?php echo $_SESSION['username']; ?></button>
                                 <div class="dropdownnew-content">
-                                <a id="myReport" href="adminreport.php">Laporan</a>
                                 <a id="logout" href="logout.php">Log Keluar</a>
                         </div>
                      </div> 
